@@ -1,0 +1,135 @@
+table thead tr th{
+  border-style: solid;
+  border-top: 1px solid black !important;
+  border-bottom: none !important;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  background-color: #41C7DB;
+  text-align: center;
+}
+
+table tbody tr td{
+  border-style: solid;
+  border-top: none !important;
+  border-bottom: none;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #EEEEEE;
+}
+
+table tbody tr:last-child {
+  border-top: 1px solid black !important;
+  border-bottom: 1px solid black !important;
+  background-color: white;
+}
+
+h1 {
+  font-size: 45px !important;
+}
+
+#addcash {
+  position: absolute;
+  margin-top: -71px;
+  margin-left: -44px;
+}
+
+#addcashlink {
+  float: right;
+  color: #666666;
+}
+
+#addcashdialog {
+  width: 550px;
+  height: 314px;
+}
+
+#changecashdialog {
+  width: 550px;
+}
+
+#viewdeletecashdialog {
+  width: 300px;
+}
+
+#viewchangecashdialog {
+  width: 500px;
+}
+
+.modal-content {
+  border-radius: 0px;
+  border: solid #000 2px;
+}
+
+.modal-header {
+  height: 33px;
+  padding: 7px !important;
+  background-color: #DDDDDD;
+}
+
+.modal-body {
+  border-top: solid #000 1px;
+  border-bottom: solid #000 1px;
+}
+
+#addcashclose, #changecashclose, #viewdeletecashclose, #viewchangecashclose {
+  opacity: 1;
+}
+
+.modal-footer {
+  background-color: #DDDDDD;
+}
+
+.col-xs-3 {
+  margin-bottom: 5px;
+  padding-right: 0px !important;
+}
+
+.timeValueBorder {
+  height: 34px !important;
+  margin-top: -5px;
+}
+
+.glyphicon {
+  top: -1px !important;
+}
+
+.ui-widget.ui-widget-content {
+  border: none !important;
+}
+
+#starttime, #changestarttime{
+  width: 105px !important;
+  margin: 0 !important;
+}
+
+#endtime, #changeendtime{
+  width: 105px !important;
+  margin: 0 !important;
+}
+
+#InCash, #changeInCash{
+  margin: 0 !important;
+}
+
+#OutCash, #changeOutCash{
+  margin: 0 !important;
+}
+
+.ui-spinner a.ui-spinner-button {
+  border: solid 1px #ccd0d2 !important;
+}
+
+.hover {
+  cursor: pointer;
+  border: 1px #000 solid;
+  background-color: lightyellow !important;
+}
+
+.modifyrequest {
+  border: solid #000 2px !important;
+  background-color: green !important;
+}
